@@ -1,0 +1,9 @@
+[package]
+name = "ludzik-kurwa"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+image = "0.25.9"
+imageproc = "0.26.1"
+rayon = "1.11.0"
