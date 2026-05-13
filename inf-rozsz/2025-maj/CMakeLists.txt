@@ -7,10 +7,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3")
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/target/cpp)
 
-add_executable(zadanko
-    src/main.cpp
-)
-
-add_executable(zad1
-    src/zad1.cpp
-)
+add_executable(zad1 src/zad1.cpp)
+add_executable(zad2 src/main.cpp)
+add_executable(zad3 src/zad3.cpp)
