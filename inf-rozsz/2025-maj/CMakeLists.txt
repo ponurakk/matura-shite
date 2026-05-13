@@ -10,3 +10,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/target/cpp)
 add_executable(zadanko
     src/main.cpp
 )
+
+add_executable(zad1
+    src/zad1.cpp
+)
